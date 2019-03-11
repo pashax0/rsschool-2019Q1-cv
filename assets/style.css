@@ -10,23 +10,33 @@ body {
     max-width: 1024px;
     margin: 0 auto;
     font-size: 14px;
+    color: rgb(50, 50, 50);
     background-color: rgb(245, 245, 245);
 }
+header,
+footer {
+    background-color: rgb(220, 220, 220);
+    padding: 5px 0;
+}
 
-h1 {
-    padding: 10px 5px;
+
+h1,
+h2 {
+    padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    background-color: rgb(230, 230, 230);
+    
 }
 h2 {
-    padding: 10px 5px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
+    font-weight: normal;
     background-color: rgb(235, 235, 235);
 }
-
+a {
+    color: rgb(0, 17, 200);
+    text-decoration: none;
+}
 p,
 li {
     padding: 0 5px;
@@ -36,9 +46,14 @@ li {
     text-align: justify;
     text-indent: 2em;
 }
-
-
-
+small {
+    font-size: 0.6rem;
+    
+}
 .code {
     font-family: 'Courier New', Courier, monospace;
+}
+
+footer p {
+    text-align: center;
 }
